@@ -6,30 +6,24 @@ A comprehensive machine learning project analyzing used car prices and building 
 
 This project demonstrates a complete data science workflow for predicting used car prices using the CarDekho dataset. The analysis includes exploratory data analysis, feature engineering, multiple regression models, and comprehensive evaluation.
 
-##  Project Structure
 
+## Project Structure
+
+```
 car-price-prediction/
-│
 ├── data/
-│   ├── raw/                    # Original dataset (cardekho.csv)
-│   └── processed/              # Cleaned and engineered data
-│
+│   ├── raw/                      # Original dataset (cardekho.csv)
+│   └── processed/                # Cleaned and engineered data
 ├── notebooks/
-│   └── Car_Price_Analysis.ipynb    # Main analysis notebook
-│
-├── scripts/                    # Utility scripts
-│
-├── models/                     # Saved trained models
-│
-├── results/                    # Visualizations and analysis results
-│
-├── docs/                       # Additional documentation
-│
-├── requirements.txt            # Python dependencies
-│
-└── README.md                   # Project documentation
+│   └── Car_Price_Analysis.ipynb  # Main analysis notebook
+├── scripts/                      # Utility scripts
+├── models/                       # Saved trained models
+├── results/                      # Visualizations and analysis results
+├── docs/                         # Additional documentation
+├── requirements.txt              # Python dependencies
+└── README.md                     # Project documentation
 
-
+```
 ## Key Analysis Steps
 
 1. **Data Cleaning & Preprocessing** - Handling missing values, outliers, and data validation
